@@ -1,8 +1,8 @@
 import click
 
-from project_name.ext.auth import create_user
-from project_name.ext.database import db
-from project_name.models import Product
+from flask_app.ext.auth import create_user
+from flask_app.ext.database import db
+from flask_app.models import Product
 
 
 def create_db():
